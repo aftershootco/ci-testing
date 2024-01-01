@@ -29,3 +29,13 @@
 import './index.css';
 
 console.log('👋 This message is being logged by "renderer.js", included via Vite');
+
+setInterval(() => {
+    fetch("https://www.google.com")
+        .then(res => {
+            console.log(res.data)
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}, 5000)
