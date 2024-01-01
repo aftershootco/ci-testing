@@ -16,6 +16,5 @@ environment = ["nodejs","browser","jest"]
 [analyzers.meta]
   plugins = ["react"]
   module_system = "es-modules"
-  dialect = "typescript"
   skip_doc_coverage = ["class-expression", "method-definition"]
   cyclomatic_complexity_threshold = "high"
